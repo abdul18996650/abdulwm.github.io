@@ -1,0 +1,160 @@
+
+.logo-section {
+	float: left;
+	width: 100%;
+	    background-color: #4a0446;
+}
+strong.logo {
+	float: left;
+	margin: 0;
+	border-right: 1px solid #ccc;
+	padding: 2px 24px 2px 0;
+}
+
+.number-box {
+	padding: 44px 30px 0 0;
+	float: right;
+}
+.number-box .fa {
+	float: left;
+	font-size: 24px;
+	line-height: 44px;
+}
+.number-text {
+	float: left;
+	position: relative;
+	border-left: 1px solid #fff;
+	padding: 0 0 0 15px;
+	margin: 0 0 0 15px;
+}
+
+
+.number-box strong {
+	font: 700 24px/24px 'Montserrat', sans-serif;
+	color: #fff;
+	display: block;
+}
+
+.book-section a.btn-book {
+	float: right;
+	padding: 12px 20px 12px 35px;
+	font: 400 18px/18px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+}
+
+
+.main-navigation {
+	float: left;
+	width: 100%;
+}
+.main-navigation .navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.main-navigation .navbar {
+	border-radius: 0;
+}
+.main-navigation .navbar {
+	border: 0;
+	margin-bottom: 0;
+	min-height: inherit;
+}
+.main-navigation .navbar-collapse {
+	padding: 0;
+	float: left;
+}
+
+.main-navigation .navbar-inverse .navbar-collapse, .main-navigation .navbar-inverse .navbar-form {
+	border-color: #ccc;
+}
+.main-navigation .navbar-inverse .navbar-nav > .active > a, .main-navigation .navbar-inverse .navbar-nav > .active > a:hover, .main-navigation .navbar-inverse .navbar-nav > .active > a:focus {
+	background: none;
+}
+
+#nav {
+	float: left;
+	list-style: none;
+}
+#nav li {
+	float: left;
+	padding: 0;
+	margin: 9px 0;
+	border-left: 1px solid #ccc;
+	position: relative;
+}
+#nav li:first-child {
+	background: none;
+	border: 0;
+}
+#nav li a {
+	font: 400 14px/30px 'Montserrat', sans-serif;
+	color: #222;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 18px;
+	display: block;
+	position: relative;
+	z-index: 20;
+}
+#nav li a:before {
+	color: transparent;
+	content: "•";
+	font-size: 1.2em;
+	left: 0;
+	right: 0;
+	width: 10px;
+	margin: auto;
+	position: absolute;
+	text-shadow: 0 0 transparent;
+	top: 12px;
+	transform: translateX(-50%);
+	transition: text-shadow 0.3s ease 0s, color 0.3s ease 0s;
+}
+
+ .about-page {
+	float: left;
+	width: 100%;
+	padding: 75px 0 0 0;
+}
+.about-section {
+	float: left;
+	width: 100%;
+}
+.about-section .text-box {
+	margin: 0 auto;
+	display: block;
+	width: 940px;
+}
+.about-section .text-box h2 {
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+.about-section .text-box h2:before {
+	content: '';
+	display: none;
+}
+.about-section .text-box em {
+	font: italic 400 18px/30px 'Open Sans', sans-serif;
+	color: #777;
+	text-align: center;
+	display: block;
+	padding: 0 0 35px 0;
+}
+
+
+.about-section .text-box em b {
+	font-weight: 700;
+	color: #444;
+}
+.about-section .thumb {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.about-section .thumb img {
+	width: 100%;
+}
+
